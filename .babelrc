@@ -1,0 +1,16 @@
+{
+    "presets": [
+        "es2015-loose",
+        "react"
+    ],
+    "plugins": [
+        "syntax-dynamic-import",
+        "transform-class-properties",
+        [
+            "transform-es2015-classes",
+            {
+                loose: true
+            }
+        ]
+    ]
+}
