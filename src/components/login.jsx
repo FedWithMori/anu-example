@@ -6,7 +6,6 @@ import ajax from 'utils/fetch';
 class Login extends Component {
     constructor(props){
         super(props);
-        console.log('0')
         this.state = {
             name: 'mori',
             age: 18,
@@ -14,13 +13,6 @@ class Login extends Component {
         }
     }
     componentDidMount() {
-        console.log(111)
-        this.setState({
-            age: 10
-        })
-    }
-    componentWillMount() {
-        console.log('000')
         this.setState({
             age: 10
         })
@@ -29,7 +21,8 @@ class Login extends Component {
         const { name, age, sex } = this.state;
         return (
             <div>
-                1111
+                <h3>这是登录页</h3>
+                <Link to="/">跳转回首页</Link>
             </div>
         )
     }

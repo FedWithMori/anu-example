@@ -10,7 +10,7 @@ const resolve = (dir) => (
 )
 
 module.exports = Merge(BaseConfig, {
-    mode: 'development',
+    // mode: 'development',
     devtool: 'source-map',
     plugins: [
         new HtmlWebpackPlugin({

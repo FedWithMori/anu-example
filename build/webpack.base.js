@@ -59,10 +59,10 @@ module.exports = {
         extensions: ['.js', '.jsx', '.less', '.css'],
         alias: {
             // 替换react
-            // react: 'anujs/dist/ReactIE.js',
-            // 'react-dom': 'anujs/dist/ReactIE.js',
-            // 'prop-types': 'anujs/lib/ReactPropTypes',
-            // 'create-react-class': 'anujs/lib/createClass.js',
+            react: 'anujs/dist/ReactIE.js',
+            'react-dom': 'anujs/dist/ReactIE.js',
+            'prop-types': 'anujs/lib/ReactPropTypes',
+            'create-react-class': 'anujs/lib/createClass.js',
             less: resolve('../src/styles'),
             utils: resolve('../src/utils'),
             components: resolve('../src/components'),
