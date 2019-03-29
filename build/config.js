@@ -7,15 +7,7 @@ module.exports = {
         autoOpenBrowser: process.env.NODE_ENV === 'development',
         assetsSubDirectory: '/',
         assetsPublicPath: '/',
-        proxyTable: {
-            '/api': {
-                target: 'http://192.168.128.111:8081',
-                pathRewrite: {
-                    '^/api': '/mockjsdata/106'
-                },
-                changeOrigin: true
-            }
-        },
+        proxyTable: {},
         cssSourceMap: false
     },
 

@@ -9,7 +9,7 @@ const Login = Loadable({
     loading() {
         return <div>加载中</div>;
     }
-})
+});
 
 const RouterConfig = () => (
     <Router history={hashHistory} >
